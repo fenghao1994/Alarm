@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue"
+        >
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/hard"
+            android:text="300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/oringe"
+            />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="game"
+            android:textSize="40sp"
+            android:textColor="@color/red"
+            />
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/best_grade"
+            android:text="300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/oringe"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/gray"
+        >
+
+    </LinearLayout>
+        
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:background="@color/oringe"
+            android:text="32"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:text="+"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:background="@color/oringe"
+            android:text="24"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="40sp"
+            />
+        <TextView
+            android:text="="
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:background="@color/oringe"
+            android:text="1233"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="40sp"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/gou"
+            />
+        <ImageView
+            android:id="@+id/error"
+            android:text="error"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/cha"
+            />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/grade"
+            android:text="当前分数：0"
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:id="@+id/restart"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/stoprect"
+            android:clickable="false"
+            >
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重新开始"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
