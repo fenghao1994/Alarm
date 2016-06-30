@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\fenghao\Desktop\Alarm\lib\progressbar\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\fenghao\Desktop\Alarm\lib\progressbar\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Program Files\Android\App\alarm1\lib\progressbar\src\main\assets"/></dataSet><dataSet config="debug"><source path="D:\Program Files\Android\App\alarm1\lib\progressbar\src\debug\assets"/></dataSet></merger>

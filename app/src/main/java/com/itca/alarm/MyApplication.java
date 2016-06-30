@@ -19,7 +19,7 @@ public class MyApplication extends Application {
         JPushInterface.init(this);
         JPushInterface.setDebugMode(true);
 
-        MobclickAgent.updateOnlineConfig(this);
+//        MobclickAgent.updateOnlineConfig(this);
         MobclickAgent.setDebugMode(true);
     }
 }
